@@ -9468,10 +9468,10 @@ strapi-provider-email-sendmail@3.0.0-beta.20:
     lodash "^4.17.11"
     sendmail "^1.2.0"
 
-strapi-provider-upload-cloudinary@3.0.0-beta.20:
-  version "3.0.0-beta.20"
-  resolved "https://registry.yarnpkg.com/strapi-provider-upload-cloudinary/-/strapi-provider-upload-cloudinary-3.0.0-beta.20.tgz#ea910ead8f03c7f80d0e771f379b25984e8cb9fe"
-  integrity sha512-pcgWq1IfJfpxwpQXo1sVJwjWJpZZdWUqwlslGmFA2TDjE8ScqKtfwKe2Nf4xgYv3lUItTlkSukEh18s9fMNcuw==
+strapi-provider-upload-cloudinary@^3.0.0-beta.20.2:
+  version "3.0.0-beta.20.2"
+  resolved "https://registry.yarnpkg.com/strapi-provider-upload-cloudinary/-/strapi-provider-upload-cloudinary-3.0.0-beta.20.2.tgz#1b16eadfe1a3e1e28dc20eee9e98135db288b3af"
+  integrity sha512-RBX7sB1OUGPDCxXNRX6HSbOINwgcNeFP9zNeBDK/qETqRQRo3zh4AHm+YaatED4Cd2IcYpLzARPymJ7OxOsikQ==
   dependencies:
     cloudinary "^1.14.0"
     into-stream "^5.1.0"
