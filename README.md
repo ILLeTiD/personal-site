@@ -1,12 +1,6 @@
-# Strapi Starter Next Blog
+# Personal blog built with Strapi and Next js
 
-Next starter for creating a blog with Strapi.
 
-This starter allows you to try Strapi with Next.js with the example of a simple blog. It is fully customizable and due to the fact that it is open source, fully open to contributions. Do not hesitate to add new features etc ...
-
-You may want to know how to develop such a starter by your own! This starter is actually the result of this [tutorial](https://strapi.io/blog/build-a-blog-with-next-react-js-strapi-and-apollo)
-
-![screenshot image](/screenshot.png)
 
 ### Deploy the backend
 
@@ -47,7 +41,7 @@ To deploy this Strapi instance you'll need:
 
 Once you have created your account you can deploy your instance by clicking on this button.
 
-[![Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/strapi/strapi-starter-next-blog)
+[![Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ILLeTiD/personal-site)
 
   - Select a repository name and fill API_URL with the url of your Strapi instance on Heroku (eg: https://your-app.herokuapp.com) without the trailing slash
 

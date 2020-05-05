@@ -1,8 +1,8 @@
 {
-  "name": "Strapi",
-  "description": "Strapi Heroku deployment",
+  "name": "Illetid",
+  "description": "Illetid dev site",
   "keywords": ["strapi", "heroku"],
-  "repository": "https://github.com/strapi/strapi-starter-next-blog",
+  "repository": "https://github.com/ILLeTiD/personal-site",
   "env": {
     "PROJECT_PATH": {
       "description": "Backend project path",
