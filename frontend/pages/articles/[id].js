@@ -18,13 +18,17 @@ export async function getStaticPaths() {
   const API_URL = process.env.API_URL || "http://localhost:1337";
   const res = await fetch(`${API_URL}/articles`);
   const posts = await res.json();
-  const paths = posts.map((p) => {
-    return {
-      params: {
-        id: `${p.id}`,
-      },
-    };
-  });
+  console.log("POSTS", posts);
+
+  const paths = posts
+    ? posts.map((p) => {
+        return {
+          params: {
+            id: `${p.id}`,
+          },
+        };
+      })
+    : [];
   return {
     // Only `/posts/1` and `/posts/2` are generated at build time
     paths,
@@ -37,6 +41,7 @@ export async function getStaticPaths() {
 // This also gets called at build time
 export async function getStaticProps({ params }) {
   const API_URL = process.env.API_URL || "http://localhost:1337";
+  console.log("API URL", API_URL);
   const res = await fetch(`${API_URL}/articles/${params.id}`);
   const post = await res.json();
 
