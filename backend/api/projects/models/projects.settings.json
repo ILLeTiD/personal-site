@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "connection": "default",
-  "collectionName": "articles",
+  "collectionName": "projects",
   "info": {
-    "name": "article"
+    "name": "Projects"
   },
   "options": {
     "increments": true,
@@ -11,33 +10,28 @@
   },
   "attributes": {
     "title": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "content": {
-      "type": "richtext",
-      "required": true
+      "type": "richtext"
     },
     "image": {
       "model": "file",
       "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
       "plugin": "upload",
-      "required": true
-    },
-    "published_at": {
-      "type": "date",
-      "required": true
-    },
-    "category": {
-      "model": "category",
-      "via": "articles"
+      "required": false
     },
     "excerpt": {
       "type": "text"
     },
     "tags": {
       "collection": "tags",
-      "via": "articles",
+      "via": "projects",
       "dominant": true
     }
   }

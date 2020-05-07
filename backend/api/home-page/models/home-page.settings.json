@@ -14,6 +14,25 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "socials.socials"
+    },
+    "footerText": {
+      "type": "richtext"
     }
   }
 }

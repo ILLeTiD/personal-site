@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_socials_socials",
+  "info": {
+    "name": "Socials",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
