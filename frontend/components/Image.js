@@ -6,7 +6,7 @@ export const Image = ({ imageData }) => {
   return (
     <img
       alt={imageData.alternativeText}
-      src={`${API_URL}${imageData.formats.medium.url}`}
+      src={`${imageData.formats.medium.url}`}
     />
   );
 };
