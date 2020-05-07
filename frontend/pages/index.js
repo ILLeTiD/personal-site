@@ -34,7 +34,7 @@ export default function Home({ homePageData }) {
         <h1 className="home-page__title">{homePageData.hero_text}</h1>
         <Avatar className="home-page__photo" imageData={homePageData.avatar} />
         <div className="home-page__text">{homePageData.content}</div>
-        <div>You can reach me on: </div>
+        <div>You can reach me at: </div>
         <SocialsList socials={homePageData.Socials} />
       </StyledHomeMain>
     </>
